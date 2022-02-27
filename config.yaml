@@ -1,0 +1,29 @@
+vmconf:
+  machine_name: 'Vagrant Magento 2'
+  network_ip: '192.168.200.50'
+  host_name: 'longServer'
+  memory: '2048'
+  cpus: '1'
+  mount: 'nfs'
+  path: 'root'
+  provision: 'all'
+composer:
+  username: 8ae3eda6d1e0aa99821f9f0d9b4d704c
+  password: c621c27d7fe5eaf7bf260dbbb5333637
+git:
+  name: 'phamvanlong098'
+  email: 'phamvanlong098@gmail.com'
+  host: 'github.com'
+  repository: 'https://github.com/phamvanlong098/magento2.git'
+magento:
+  url: 'dev.magento.com'
+  source: 'composer'
+  edition: 'community'
+  version: '2.4.3'
+  php_version: 'default'
+  sample: 'true'
+  mode: 'developer'
+  currency: "VND"
+  language: 'en_US'
+  time_zone: "Asia/Ho_Chi_Minh"
+  crypt_key: ''
